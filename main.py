@@ -5,14 +5,20 @@
 import os
 import sys
 
-# The text won the local pairwise judging (45 duels + 6 swap-order re-checks,
-# same model as the real judge): it beat the runner-up mountain text 0.7-0.3
-# and the stardust text 0.8-0.2 over two calls each, and all three references.
+# The text won the local pairwise judging v2 (28 duels round 1 + 20 duels
+# vs live top-10 texts + 4 swap-order re-checks, same model as the real
+# judge): it won 7/7 in round 1 and 6/10 vs the live top texts, and beat
+# the v1 deep-sea text head-to-head. See LOCAL-JUDGE-V2.md.
 TEXT = (
-    "Far below the last light, the water holds still. A whale passes, slow as "
-    "weather, and the dark folds back over its song. Down here nothing hurries. "
-    "The pressure is only a hand, steady on your shoulder. You are small, and "
-    "the sea is old, and both of those things are all right."
+    "Water falls, one drop,\n"
+    "from the roof of the cave,\n"
+    "and the stone below it grows,\n"
+    "a finger's width, a thousand years.\n"
+    "The cave has never seen the sun.\n"
+    "It does not miss it.\n"
+    "The dark has kept it all this time.\n"
+    "The dark is deep,\n"
+    "and the drop falls, and falls."
 )
 
 
