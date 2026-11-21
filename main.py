@@ -7,8 +7,10 @@ import sys
 
 # The text won the local pairwise judging v2 (28 duels round 1 + 20 duels
 # vs live top-10 texts + 4 swap-order re-checks, same model as the real
-# judge): it won 7/7 in round 1 and 6/10 vs the live top texts, and beat
-# the v1 deep-sea text head-to-head. See LOCAL-JUDGE-V2.md.
+# judge): it won 7/7 in round 1 (game score 0.743) and 6/10 vs the live top
+# texts (2-call game score 0.545; all four losses confirmed on swap-order
+# re-check, none of them flipped). It beat the v1 deep-sea text head-to-head
+# (margin 2). See LOCAL-JUDGE-V2.md for the full table.
 TEXT = (
     "Water falls, one drop,\n"
     "from the roof of the cave,\n"
